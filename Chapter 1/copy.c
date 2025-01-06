@@ -7,8 +7,9 @@ int main() {
             ++i;
         }
     }
-    char str1[5] = "copy";
-    char str2[5] = "four";
+    // Do not forget about null terminator when hardcoding the length of the array
+    char str1[6] = "FIRST";
+    char str2[16] = "aaaaaUnchanged?";
 
     printf("str1: %s\n", str1);
     printf("str2: %s\n", str2);
