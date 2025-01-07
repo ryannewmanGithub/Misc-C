@@ -11,6 +11,6 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%d\n", *(ip + i));
     }
-    
+    free(ip);
     return 0;
 }
