@@ -1,0 +1,6 @@
+Do gcc -o getchario getchario.c 
+Then do, ./getchario < getchario.txt
+After that, all of these lines will be displayed!
+Hello, world!
+This should be printing out!
+C is amazing!
